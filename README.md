@@ -1,8 +1,8 @@
-### CIS 120 Game Project README
+CIS 120 Game Project README
 
 
 ===================
-## Core Concepts :=
+# Core Concepts #
 ===================
 
 - List the four core concepts, the features they implement, and why each feature is an appropriate use of the concept. Incorporate the feedback you got after submitting your proposal.
@@ -16,7 +16,7 @@
   4. Collections: I use an ArrayList to store the Apples that are in play during the game. The reason for using the ArrayList data structure is that it is faster for looking up elements (which will be important when removing an apple from the list if a certain condition is triggered) and it enables us to dynamically change the size of the list (since we need to be able to add or remove apples when necessary).
 
 =========================
-## Your Implementation 
+# Your Implementation #
 =========================
 
 - Provide an overview of each of the classes in your code, and what their
@@ -51,7 +51,7 @@
 Also note the use of protected variables in the Apple class. In this use case, most of my subclasses share the same variables: thus it would make logical sense to use protected variables defined in the abstract class. Examples of variables that are shared are Apples color, label, x coordinates, y coordinates, etc. The alternative would be to make them private and then create setter/getter methods in the abstract class and use super(), which would be a lot more code and less efficient. Protected ensures only subclasses of Apple have access to the variables in Apple but it is not available publicly.
 
 ========================
-## External Resources
+# External Resources #
 ========================
 
 - Cite any external resources (images, tutorials, etc.) that you may have used 
